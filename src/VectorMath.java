@@ -137,6 +137,26 @@ public class VectorMath {
 		return vec;
 	}
 	
+	public int getTam() {
+		return tam;
+	}
+
+
+	public void setTam(int tam) {
+		this.tam = tam;
+	}
+
+
+	public double[] getVector() {
+		return vector;
+	}
+
+
+	public void setVector(double[] vector) {
+		this.vector = vector;
+	}
+
+
 	public double NormaUno(){
 		
 		double vec = 0;
